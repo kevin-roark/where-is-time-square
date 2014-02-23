@@ -33,6 +33,17 @@ body {
         background-color: rgba(170, 30, 240, 1);
     }
 
+.upset-woman-container {
+    width: 100%;
+    text-align: center;
+    margin: -20px 0px;
+}
+    .upset-woman {
+        width: 100%;
+        height: 150px;
+        opacity: 0.9;
+    }
+
 .main-text-container {
     background-color: #222;
     padding-top: 20px;
