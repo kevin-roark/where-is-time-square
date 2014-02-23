@@ -40,8 +40,42 @@ body {
     .main-text {
         padding-left: 10%;
         padding-right: 10%;
-        font-size: 150%;
+        font-size: 160%;
         color: #eee;
         font-weight: 100;
         letter-spacing: 1px;
     }
+
+.map-container {
+    background-color: #eee;
+    color: #222;
+    text-align: center;
+}
+    .map-container-header {
+        margin-bottom: 10px;
+        font-size: 180%;
+    }
+    .map-image-container {
+
+    }
+        .map-image {
+            max-width: 99%;
+            border: 1px solid red;
+        }
+
+.helpful-tips-container {
+    text-align: center;
+    background-color: rgb(60, 90, 250);
+    color: rgb(252, 252, 252);
+}
+    .helpful-tips {
+
+    }
+
+.footer {
+  background-color: rgba(225, 225, 225, 1);
+  color: #333;
+  text-align: center;
+  font-size: 100%;
+  margin-bottom: 0px;
+}
