@@ -22,6 +22,7 @@ body {
     .red-time-square {
         color: rgba(30, 30, 240, 1);
         background-color: rgba(240, 30, 30, 1);
+        margin-top: 30px;
     }
     .green-time-square {
         color: rgba(240, 130, 30, 1);
@@ -60,17 +61,70 @@ body {
     }
         .map-image {
             max-width: 99%;
-            border: 1px solid red;
+            border: 3px solid red;
         }
 
 .helpful-tips-container {
     text-align: center;
     background-color: rgb(60, 90, 250);
     color: rgb(252, 252, 252);
+    font-size: 135%;
+    font-weight: 700;
 }
     .helpful-tips {
 
     }
+        .helpful-tip {
+            font-size: 90%;
+            margin: 10px 0px;
+        }
+            .helpful-tip-image {
+                vertical-align: middle;
+                max-width: 99%;
+            }
+            .details-image {
+                height: 200px;
+            }
+            .special-comment-1 {
+                margin: 5px 0px;
+            }
+            .special-comment-2 {
+                height: 70px;
+                margin: 5px 0px;
+            }
+            .special-comment-3 {  
+                margin: 5px 0px;
+                height: 120px;
+            }
+            .special-comment-4 {
+                margin: 5px 0px;
+                height: 225px;
+            }
+
+.directions-container {
+    text-align: center;
+    background-color: rgb(225, 225, 60);
+    color: rgb(0, 0, 80);
+}
+    .directions-header {
+        font-size: 130%;
+        margin-bottom: 10px;
+    }
+    .directions-image {
+        max-width: 99%;
+        height: 100px;
+        vertical-align: middle;
+    }
+    .directions-text { 
+        font-size: 150%;
+        font-weight: 100;
+    }
+        .directions-text a {
+            color: rgb(120, 40, 120);
+        }
+            .directions-text a:hover, .directions-text a:focus {
+                color: rgb(160, 60, 160);
+            }
 
 .footer {
   background-color: rgba(225, 225, 225, 1);
@@ -79,3 +133,10 @@ body {
   font-size: 100%;
   margin-bottom: 0px;
 }
+    .footer a {
+        color: rgba(60, 60, 240, 0.9);
+        text-decoration: none;
+    }
+         .footer  a:hover, footer a:focus {
+            color: rgba(90, 95, 255, 1.0);
+        }
